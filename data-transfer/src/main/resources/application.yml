@@ -1,0 +1,13 @@
+server:
+    port: 8080
+
+test1-datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bb_log?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1010521t
+test2-datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bb_log_1?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1010521t
